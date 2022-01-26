@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "hyperstream": "^1.2.2",
+    "marked": "^4.0.10",
+    "mkdirp": "^1.0.4"
+  },
+  "name": "hyper-website",
+  "description": "Create websites using [hyperstream](https://github.com/substack/hyperstream)",
+  "version": "0.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/hyper-website.git"
+  },
+  "author": "nichoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/hyper-website/issues"
+  },
+  "homepage": "https://github.com/nichoth/hyper-website#readme"
+}
