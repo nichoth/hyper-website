@@ -57,7 +57,7 @@ function createHyperstream (fm, content, baseName) {
 
     return hyperstream({
         body: {
-            class: { append: baseName },
+            class: { append: path.basename(baseName, '.md') },
             _appendHtml: h1 + content
         },
 
