@@ -253,5 +253,6 @@ dist
 
 bundle.js
 
+test/test-public/foo test/test-public/**/*
 test/test-public/foo test/test-public/*
 
